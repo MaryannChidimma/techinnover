@@ -12,6 +12,7 @@ class ReminderConteroller {
       res.status(201).send(appResponse(REMINDER_CREATED, result))
   }
   async getAllReminder (req: Request, res: Response){
+   
      const result = await reminderService.findAll(req.query)
      res.status(200).send(appResponse(FETCH_REMINDER, result))
   }
@@ -23,7 +24,7 @@ class ReminderConteroller {
 
   async handleOthers (req: Request, res: Response, next: NextFunction) {
      if(req.method === "PUT" || req.method === "DELETE" || req.method === "PATCH" ){
-      throw new ForbiddenError(INVALID_REMINDER_ROUTE)
+      throw new ForbiddenError()
      }
     next()
   }

@@ -3,7 +3,6 @@ dotenv.config();
 
 const constants = {
   APP_NAME: "techinnover",
-  NODE_ENV: process.env.NODE_ENV,
   PORT: process.env.PORT, 
 
   MESSAGES: {
