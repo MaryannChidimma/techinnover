@@ -1,0 +1,12 @@
+{
+    "extends": "@tsconfig/node16/tsconfig.json",
+    "target": "es5", // or a more recent ecmascript version
+    "compilerOptions": {
+      "experimentalDecorators": true,
+      "rootDir": "./",
+      "outDir": "./dist"
+    },
+    "include": ["./src/**/*.ts",  ".sequelizerc"],
+    "exclude": ["node_modules"]
+  }
+  
