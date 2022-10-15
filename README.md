@@ -18,7 +18,7 @@ Here is a link to the Postman documentation `https://documenter.getpostman.com/v
     the following are the reasons:
      + MongoDb : mongo db Id's are not in number(eg : 1, 2 ) rather a combination of 25 charaters is used
      + Postgres : Postgres would have rather been a great option, but It require some setup and migration before my code could be run on another local computer.
-     + SQlite : I also considered using sqlite, because unlike posgres, it is light weight and requires no installation and migration, but file based database still showcase my problem solving skills more.
+     + SQlite : I also considered using sqlite, because unlike posgres, it is light weight and requires no installation and migration, but file based database still showcased my problem solving skills more.
 
 
    
