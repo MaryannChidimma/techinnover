@@ -10,6 +10,17 @@ This project can be installed by
 + Run the command `npm install` to intall all dependencies used
 + Run the command `npm run dev`
 
+## Project Documentation
+Here is a link to the Postman documentation `https://documenter.getpostman.com/view/19693532/2s847BSuni`
+
+## Project Explanation and Reason for Using file Based DB
+  +For this project a file based storage is used instead of an external database,
+  +the following are the reasons:
+    1. MongoDb : mongo db Id's are not in number(eg : 1, 2 ) rather a combination of 25 charaters is used
+    2. Postgres : Postgres would have rather been a great option, but It require some setup and migration before my code could be run on another local computer.
+    3. SQlite : I also considered using sqlite, because unlike posgres, it is light weight and requires no installation and migration, but file based database still showcase my problem solving skills more.
 
 
+   
+ 
 
