@@ -1,4 +1,4 @@
-import express, {Request, Response }from "express";
+import express from "express";
 import reminderRoute from './reminderRoute'
 const router = express.Router();
 

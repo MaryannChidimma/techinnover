@@ -3,7 +3,7 @@ dotenv.config();
 
 const constants = {
   APP_NAME: "techinnover",
-  PORT: process.env.PORT, 
+  PORT: process.env.PORT,
 
   MESSAGES: {
     REMINDER_CREATED: "Reminder is successfully created",

@@ -1,16 +1,16 @@
 
 interface Reminder {
     id?: number;
-    user : number;
+    user: number;
     description: string;
     date?: Date
 }
 
 interface GetReminder {
     id: number;
-    user : number;
+    user: number;
     description: string;
-    date: string 
+    date: string
 }
 
 interface SearchReminder {
@@ -18,11 +18,11 @@ interface SearchReminder {
     user?: number;
     description?: string;
     date?: Date;
-    after?:Date
+    after?: Date
 }
 
 export {
-Reminder,
-GetReminder,
-SearchReminder
+    Reminder,
+    GetReminder,
+    SearchReminder
 }
