@@ -41,7 +41,6 @@ class ReminderService {
       queryItems.date = query.date
     }
     if (query.after) {
-      console.log(new Date(Number(query.after)))
       queryItems.after = new Date(Number(query.after))
     }
 
