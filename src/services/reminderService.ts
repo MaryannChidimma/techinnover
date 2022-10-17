@@ -51,7 +51,7 @@ class ReminderService {
     return await this.findById(id)
   }
 
-  async writeTofile(data: any) {
+  async writeTofile(data: object) {
     fs.writeFile(absolutePath, JSON.stringify(data), function (err) {
       if (err) throw err;
     });
